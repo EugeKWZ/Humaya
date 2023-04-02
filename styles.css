@@ -1,10 +1,10 @@
 @media only screen and (max-width: 600px) and (min-width: 400px) {
 }
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-body {
-  font-family: "Rubik", sans-serif;
-  letter-spacing: 1px;
+* {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.5px;
   word-spacing: 1px;
 }
 
@@ -177,6 +177,51 @@ header {
   padding: 5%;
   width: 700px;
 }
+
+.productoMaicenaHumaya{
+  background-color: rgba(212,173,140,255);
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+
+.productoMaicenaHumaya img{
+  margin-right: 100px;
+}
+
+.infoProductoMaicena{
+color: white;
+text-align: left;
+margin-left: 100px;
+}
+
+.infoProductoMaicena h3{
+  color: rgba(101,68,32,255);
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.infoProductoMaicena p{
+  font-size: small;
+}
+
+.infoProductoMaicenaPresentacion{
+  color: rgba(101,68,32,255);
+  font-weight: bold;
+  font-size: large;
+}
+
+.infoProductoMaicena button{
+  padding: 7px 25px;
+  font-weight: bold;
+  color: rgba(101,68,32,255);
+  background-color: transparent;
+  border: 3px solid rgba(101,68,32,255);
+  margin: 40px 200px;
+}
+
 
 .conocenosHumaya {
   background-color: rgb(203, 163, 118);
