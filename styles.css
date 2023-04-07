@@ -77,12 +77,12 @@ header {
 }
 
 .calidadHumaya {
-  background-color: rgb(87, 83, 84);
+  background-color: rgba(188,161,119,255);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   padding-bottom: 10px;
   margin: 0;
@@ -182,17 +182,19 @@ header {
   background-color: rgba(212,173,140,255);
   display: flex;
   align-items: center;
-  height: 300px;
+  height: 350px;
 }
 
 .productoMaicenaHumaya img{
   margin-right: 100px;
+  width: 300px;
 }
 
 .infoProductoMaicena{
 color: white;
 text-align: left;
 margin-left: 100px;
+padding: 5% 0;
 }
 
 .infoProductoMaicena h3{
@@ -200,11 +202,11 @@ margin-left: 100px;
   font-weight: lighter;
   text-align: center;
   padding-bottom: 20px;
-  padding-top: 20px;
+  margin-top: 40px;
 }
 
 .infoProductoMaicena p{
-  font-size: small;
+  font-size: medium;
 }
 
 .infoProductoMaicenaPresentacion{
@@ -292,17 +294,43 @@ margin-left: 100px;
 }
 
 footer {
-  padding: 20px;
+  padding-top: 5px;
   background-color: rgba(0, 0, 0, 0.968);
 }
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
+  font-size: small;
+}
+
+footer h5{
+  font-weight: lighter;
+  font-size: medium;
+  color: rgba(153,124,101,255);
+}
+
+footer .navegacionHumaya a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer .humayaRedes {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+footer .humayaRedes img{
+  width: 40px;
+  padding: 3px 0;
+}
+
+.maquetado{
+  text-align: center;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.575);
+  font-size: small;
 }
