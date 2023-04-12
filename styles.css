@@ -1,11 +1,9 @@
-@media only screen and (max-width: 600px) and (min-width: 400px) {
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 * {
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.5px;
-  word-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 0.7px;
 }
 
 .container-img {
@@ -48,7 +46,7 @@ header {
 
 .portadaHumaya h1 {
   font-weight: bold;
-  margin: 0 255px 20px auto;
+  margin: 0 235px 15px auto;
 }
 
 .portadaHumaya p {
@@ -130,8 +128,8 @@ header {
 }
 
 .productoUno .infoProducto {
-  padding: 5%;
-  width: 700px;
+  padding: 40px;
+  width: auto;
 }
 
 .infoProducto p {
@@ -151,6 +149,10 @@ header {
   background-color: black;
   border: 3px solid rgba(144, 122, 92, 255);
   margin: 40px 200px;
+}
+
+.infoProducto button:hover{
+  background-color: rgb(21, 21, 21);
 }
 
 /* PRODUCTOS CSS */
@@ -174,8 +176,8 @@ header {
 }
 
 .productoTres .infoProducto {
-  padding: 5%;
-  width: 700px;
+  padding: 40px;
+  width: auto;
 }
 
 .productoMaicenaHumaya{
@@ -222,6 +224,10 @@ padding: 5% 0;
   background-color: transparent;
   border: 3px solid rgba(101,68,32,255);
   margin: 40px 200px;
+}
+
+.infoProductoMaicena button:hover{
+  background-color: rgb(228, 185, 149);
 }
 
 
@@ -291,6 +297,10 @@ padding: 5% 0;
   padding: 6px 19px;
   font-size: small;
   margin: 30px auto;
+}
+
+.contactoHumaya button:hover{
+  background-color: rgb(244, 242, 242);
 }
 
 footer {
